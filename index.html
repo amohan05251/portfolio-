@@ -113,6 +113,8 @@
     .pdesc{font-size:.85rem;color:var(--text2);line-height:1.75;margin-bottom:1.5rem;}
     .ptech{display:flex;flex-wrap:wrap;gap:.4rem;padding-top:1.2rem;border-top:1px solid var(--border);}
     .ttag{font-size:.68rem;color:var(--text3);background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:.2rem .55rem;}
+    .plink{display:inline-flex;align-items:center;gap:.4rem;font-size:.78rem;font-weight:500;color:var(--accent);text-decoration:none;margin-top:1rem;transition:gap .18s;}
+    .plink:hover{gap:.65rem;}
 
     /* SKILLS */
     #skills{background:var(--bg2);}
@@ -226,13 +228,13 @@
     <div class="hc">
       <div class="hgreet rv">Hello, I'm</div>
       <h1 class="hname rv d1">Amala<span>Mohan.</span></h1>
-      <p class="hsub rv d2">Computer Science &amp; Mathematics Student</p>
+      <p class="hsub rv d2">Combined Major in Computer Science &amp; Mathematics — 2nd Year at UBC</p>
       <p class="hdesc rv d3">Exploring the intersection of technology, design, and human behaviour. Passionate about building intuitive interfaces, understanding machine intelligence, and what computers can teach us about the mind.</p>
       <div class="hact rv d4">
         <a href="#projects" class="btn bf">View Projects</a>
         <a href="#contact"  class="btn bg">Get In Touch</a>
         <a href="Amala_Mohan_Resume.pdf" download class="btn bg">↓ Download Resume</a>
-        <a href="https://github.com/amumo05" target="_blank" class="btn bg" style="padding:.75rem 1rem" aria-label="GitHub">
+        <a href="https://github.com/amohan05251" target="_blank" class="btn bg" style="padding:.75rem 1rem" aria-label="GitHub">
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
         </a>
         <a href="https://www.linkedin.com/in/amala-mohan-62586a33b" target="_blank" class="btn bg" style="padding:.75rem 1rem" aria-label="LinkedIn">
@@ -257,16 +259,16 @@
         <div class="ey rv">About Me</div>
         <div class="acard rv d1">
           <div class="act">Quick Info</div>
-          <div class="ir"><span class="il">Study</span><span class="iv">CS &amp; Mathematics</span></div>
+          <div class="ir"><span class="il">Study</span><span class="iv">Combined Major, CS &amp; Mathematics — 2nd Year, UBC</span></div>
           <div class="ir"><span class="il">Location</span><span class="iv">British Columbia, Canada</span></div>
           <div class="ir"><span class="il">Email</span><span class="iv"><a href="mailto:amohan07@student.ubc.ca">amohan07@student.ubc.ca</a><br><a href="mailto:amuottawa5@gmail.com" style="font-size:.78rem">amuottawa5@gmail.com</a></span></div>
-          <div class="ir"><span class="il">GitHub</span><span class="iv"><a href="https://github.com/amumo05" target="_blank">amumo05</a></span></div>
+          <div class="ir"><span class="il">GitHub</span><span class="iv"><a href="https://github.com/amohan05251" target="_blank">amohan05251</a></span></div>
           <div class="ir"><span class="il">LinkedIn</span><span class="iv"><a href="https://www.linkedin.com/in/amala-mohan-62586a33b" target="_blank">amala-mohan</a></span></div>
         </div>
       </div>
       <div class="atxt">
         <h2 class="st rv">Curious about <em>everything.</em></h2>
-        <p class="rv d1">I'm studying <strong>Computer Science and Mathematics</strong>, with a particular pull toward front-end development and UI/UX design. I love the challenge of structuring information so it feels effortless — turning complexity into something anyone can understand and enjoy using.</p>
+        <p class="rv d1">I'm a <strong>Combined Major student in Computer Science and Mathematics</strong>, currently in my 2nd year at UBC, with a particular pull toward front-end development and UI/UX design. I love the challenge of structuring information so it feels effortless — turning complexity into something anyone can understand and enjoy using.</p>
         <p class="rv d2">I deliberately explore <strong>different areas of computer science</strong> to build breadth alongside depth — the most interesting problems usually live at the edges of disciplines. Hackathons are my favourite environment for this: tight timelines, high stakes, and a team to learn from.</p>
         <p class="rv d3">Long term, I'm drawn toward <strong>research at the intersection of AI and human psychology</strong> — how intelligent systems shape behaviour and perception, and what we can design to make that relationship healthier and more meaningful.</p>
         <div class="pills rv d4">
@@ -292,43 +294,30 @@
     <div class="pgrid">
 
       <div class="pcard rv">
-        <div class="pnum">Project 01</div>
-        <span class="pbadge">Data Analysis</span>
-        <h3 class="ptitle">Stock Market Analysis</h3>
-        <p class="pdesc">Analyzes stock trends of multiple publicly traded companies between 2020 and 2025. Examines historical data and financial indicators to surface patterns in market behaviour.</p>
-        <div class="ptech"><span class="ttag">Python</span><span class="ttag">Pandas</span><span class="ttag">Data Analysis</span></div>
-      </div>
-
-      <div class="pcard rv d1">
-        <div class="pnum">Project 02</div>
-        <span class="pbadge">Finance</span>
-        <h3 class="ptitle">Financial Statement Analyzer</h3>
-        <p class="pdesc">Processes and analyzes company financial statements to extract meaningful insights and patterns — making dense reports readable and comparable at a glance.</p>
-        <div class="ptech"><span class="ttag">Python</span><span class="ttag">Pandas</span><span class="ttag">Data Analysis</span></div>
-      </div>
-
-      <div class="pcard rv d2">
-        <div class="pnum">Project 03 — NW Hacks</div>
+        <div class="pnum">Project 01 — NW Hacks</div>
         <span class="pbadge">Hackathon</span>
         <h3 class="ptitle">PrairieLearn Chrome Extension</h3>
         <p class="pdesc">Built with a team of 3 at NW Hacks. A Chrome extension that helps students journal mistakes while problem-solving on PrairieLearn, track error patterns, and develop reflective learning habits. Integrated Gemini AI as an intelligent assistant — my first hands-on experience with AI APIs.</p>
         <div class="ptech"><span class="ttag">JavaScript</span><span class="ttag">HTML/CSS</span><span class="ttag">Chrome Extension APIs</span><span class="ttag">Gemini AI API</span><span class="ttag">Git</span></div>
+        <a href="https://lnkd.in/gve9Yv3E" target="_blank" class="plink">View Project →</a>
       </div>
 
-      <div class="pcard rv d3">
-        <div class="pnum">Project 04 — Community</div>
+      <div class="pcard rv d1">
+        <div class="pnum">Project 02 — Community</div>
         <span class="pbadge">Data Visualization</span>
         <h3 class="ptitle">Marpole Neighbourhood House Website</h3>
         <p class="pdesc">A public-facing website built for the Marpole Neighbourhood House and CCEL volunteer initiative. Visualizes lifestyle patterns and wellbeing data of elderly community members through interactive charts and maps, making raw data accessible to non-technical audiences.</p>
         <div class="ptech"><span class="ttag">HTML</span><span class="ttag">CSS</span><span class="ttag">JavaScript</span><span class="ttag">GitHub</span></div>
+        <a href="https://amohan05251.github.io/Marple-village-data-mapping-/" target="_blank" class="plink">View Project →</a>
       </div>
 
-      <div class="pcard rv d4">
-        <div class="pnum">Project 05 — Personal</div>
-        <span class="pbadge">Productivity</span>
-        <h3 class="ptitle">Aesthetic Student Calendar</h3>
-        <p class="pdesc">A visually themed productivity calendar web app designed specifically for students who want a more intentional, beautiful way to organise their time. Part of a growing suite of student productivity tools — including a Co-op Assistant app with completed UI/UX and planned AI chatbot integration.</p>
+      <div class="pcard rv d2">
+        <div class="pnum">Project 03 — Asia Studies</div>
+        <span class="pbadge">Interactive Website</span>
+        <h3 class="ptitle">Interactive Website About the Ramayana</h3>
+        <p class="pdesc">An interactive website built for an Asia Studies project, exploring the story, characters, and cultural significance of the Ramayana through an engaging, accessible web experience.</p>
         <div class="ptech"><span class="ttag">HTML</span><span class="ttag">CSS</span><span class="ttag">JavaScript</span></div>
+        <a href="https://amumo05.github.io/resume/" target="_blank" class="plink">View Project →</a>
       </div>
 
     </div>
@@ -389,13 +378,22 @@
       <div class="tli rv">
         <div class="tldw"><div class="tld"><div class="tldi"></div></div></div>
         <div class="tlc">
+          <div class="tltype">Present</div>
+          <div class="tltitle">Bolt UBC Club — Tech Director</div>
+          <div class="tldesc">Serving as Tech Director for Bolt UBC Club, leading technical initiatives and supporting the club's development projects and technology strategy.</div>
+        </div>
+      </div>
+
+      <div class="tli rv d1">
+        <div class="tldw"><div class="tld"><div class="tldi"></div></div></div>
+        <div class="tlc">
           <div class="tltype">Hackathon</div>
           <div class="tltitle">NW Hacks — Participant</div>
           <div class="tldesc">Competed with a team of 3 to build the PrairieLearn Chrome Extension. Led the UI/UX design of the extension popup and main journal interface. Gained hands-on experience with the Gemini AI API and rapid full-stack product delivery under pressure.</div>
         </div>
       </div>
 
-      <div class="tli rv d1">
+      <div class="tli rv d2">
         <div class="tldw"><div class="tld"><div class="tldi"></div></div></div>
         <div class="tlc">
           <div class="tltype">Case Competition</div>
@@ -404,7 +402,7 @@
         </div>
       </div>
 
-      <div class="tli rv d2">
+      <div class="tli rv d3">
         <div class="tldw"><div class="tld"><div class="tldi"></div></div></div>
         <div class="tlc">
           <div class="tltype">Volunteer</div>
@@ -413,7 +411,7 @@
         </div>
       </div>
 
-      <div class="tli rv d3">
+      <div class="tli rv d4">
         <div class="tldw"><div class="tld"><div class="tldi"></div></div></div>
         <div class="tlc">
           <div class="tltype">Volunteer</div>
@@ -486,9 +484,9 @@
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
             linkedin.com/in/amala-mohan
           </a>
-          <a href="https://github.com/amumo05" target="_blank" class="clink rv d4">
+          <a href="https://github.com/amohan05251" target="_blank" class="clink rv d4">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-            github.com/amumo05
+            github.com/amohan05251
           </a>
         </div>
       </div>
