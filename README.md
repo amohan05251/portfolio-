@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio! This website serves as a collection of my academic, technical, and extracurricular experiences as a Computer Science and Mathematics student at the University of British Columbia (UBC).
 
-🌐 Live Website: https://amumo05.github.io/resume/
+🌐 Live Website: https://amohan05251.github.io/personal-portfolio/
 
 ### About
 
